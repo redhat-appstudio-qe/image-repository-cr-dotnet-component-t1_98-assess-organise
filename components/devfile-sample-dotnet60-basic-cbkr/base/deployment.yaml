@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-cbkr
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/rs-demos-fdgf-tenant/image-repository-cr-dotnet-component/devfile-sample-dotnet60-basic-cbkr
+      - image: quay.io/redhat-appstudio-qe/rs-demos-fdgf-tenant/image-repository-cr-dotnet-component/devfile-sample-dotnet60-basic-cbkr@sha256:ddac05f7eb47130d2f52366eaeeaec9097fe17fae656d4cbca087badb920dfdc
         imagePullPolicy: Always
         name: main
         ports:
